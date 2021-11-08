@@ -1,0 +1,19 @@
+.main_content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 4rem; /* between title and card_container */
+}
+
+.about {
+   padding: 2rem 0.1rem;
+   width: 52rem;
+   font-weight: var(--font-weight-400);
+   color: var(--grayish-blue);
+}
+
+.card_container {
+   display: flex;
+   align-items: center;
+   gap: 3rem; /* card supervisor, team_karma_container and card calculator */
+}

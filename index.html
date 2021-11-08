@@ -19,11 +19,23 @@
 
       <link rel="stylesheet" href="./styles/baselayout.css" />
 
+      <link
+         rel="stylesheet"
+         href="./styles/mobile.css"
+         media="(min-width:120px) and (max-width: 1023px)"
+      />
+
+      <link
+         rel="stylesheet"
+         href="./styles/desktop.css"
+         media="(min-width:1024px) and (max-width: 2560px)"
+      />
+
       <title>Frontend Mentor | Four card feature section</title>
    </head>
    <body>
       <div class="container">
-         <div class="main_content">
+         <main class="main_content">
             <div class="title">
                <h1 class="reliable">Reliable, efficient delivery</h1>
                <h1 class="power">Powered by Technology</h1>
@@ -66,7 +78,7 @@
                   </p>
                </div>
             </div>
-         </div>
+         </main>
 
          <footer>
             <p class="attribution">
@@ -74,9 +86,14 @@
                <a
                   href="https://www.frontendmentor.io?ref=challenge"
                   target="_blank"
+                  rel="noopener noreferrer"
                   >Frontend Mentor</a
                >. Coded by
-               <a href="https://github.com/boymelvs" target="_blank">boymelvs</a
+               <a
+                  href="https://github.com/boymelvs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >boymelvs</a
                >.
             </p>
          </footer>
