@@ -75,11 +75,13 @@ footer a {
 }
 
 .details {
-   font-weight: var(--font-weight-200);
+   padding: 1rem 0;
+   color: var(--grayish-blue);
+   font-weight: var(--font-weight-400);
 }
 
 .supervisor {
-   border-top: 1rem solid var(--cyan);
+   border-top: 0.5rem solid var(--cyan);
    background-image: url("../images/icon-supervisor.svg");
    background-position: bottom 2rem right 2rem;
    background-repeat: no-repeat;
@@ -87,7 +89,7 @@ footer a {
 }
 
 .team {
-   border-top: 1rem solid var(--red);
+   border-top: 0.5rem solid var(--red);
    background-image: url("../images/icon-team-builder.svg");
    background-position: bottom 2rem right 2rem;
    background-repeat: no-repeat;
@@ -96,7 +98,7 @@ footer a {
 }
 
 .karma {
-   border-top: 1rem solid var(--orange);
+   border-top: 0.5rem solid var(--orange);
    background-image: url("../images/icon-karma.svg");
    background-position: bottom 2rem right 2rem;
    background-repeat: no-repeat;
@@ -104,7 +106,7 @@ footer a {
 }
 
 .calculator {
-   border-top: 1rem solid var(--blue);
+   border-top: 0.5rem solid var(--blue);
    background-image: url("../images/icon-calculator.svg");
    background-position: bottom 2rem right 2rem;
    background-repeat: no-repeat;
