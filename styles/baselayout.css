@@ -77,7 +77,6 @@ footer a {
 .details {
    padding: 1rem 0;
    color: var(--grayish-blue);
-   font-weight: var(--font-weight-400);
 }
 
 .supervisor {
